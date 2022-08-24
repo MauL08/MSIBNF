@@ -1,0 +1,13 @@
+name: CI Process
+on:
+  push:
+    branches: [master]
+jobs:
+  flutter-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run Pub Get
+        run: flutter pub get
+      - name: Run Flutter Test
+        run: flutter test
