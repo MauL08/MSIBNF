@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:msibnf/home.dart';
+import 'package:lottie/lottie.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({Key? key}) : super(key: key);
@@ -22,13 +23,13 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Container(
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage('assets/images/splash.png'),
+      backgroundColor: Colors.blue.shade300,
+      body: Center(
+        child: Lottie.asset(
+          'assets/animations/rocket.json',
           fit: BoxFit.cover,
         ),
       ),
-    ));
+    );
   }
 }
