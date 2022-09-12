@@ -7,6 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:msibnf/home.dart';
 
 import 'package:msibnf/main.dart';
 
@@ -15,7 +16,7 @@ void main() {
     // Assemble or Declare
     await tester.pumpWidget(
       const MaterialApp(
-        home: MyHomePage(),
+        home: HomePage(),
       ),
     ); // Rendering Spesific Screen
 
