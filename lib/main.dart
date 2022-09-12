@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:msibnf/home.dart';
 import 'package:msibnf/splash.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SplashPage(),
+      home: const HomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
