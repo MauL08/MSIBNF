@@ -1,4 +1,0 @@
-#Mon Sep 12 13:38:43 WIB 2022
-base.0=/Users/maul/Developer/code/works/MSIBNF/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
